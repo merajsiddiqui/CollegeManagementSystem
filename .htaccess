@@ -1,0 +1,26 @@
+<IfModule mod_rewrite.c>
+
+	RewriteEngine On
+	RewriteRule ^/?$ controller/public/public_home.php [NC,L]
+	RewriteRule ^home/?$ controller/public/index.php [NC,L]
+	RewriteRule ^login/?$ controller/public/login.php [NC,L]
+	RewriteRule ^studentProfile/?$ controller/public/studentProfile.php [NC,L]
+	RewriteRule ^teacherProfile/?$ controller/public/teacherProfile.php [NC,L]
+	RewriteRule ^cancel/?$ controller/public/cancel.php [NC,L]
+	RewriteRule ^update/?$ controller/public/update.php [NC,L]
+	RewriteRule ^manage/?$ controller/public/manage.php [NC,L]
+	RewriteRule ^calendar/?$ controller/public/calendar.php [NC,L]
+	RewriteRule ^public_home/?$ controller/public/public_home.php [NC,L]
+	RewriteRule ^sprofile/?$ controller/public/sprofile.php [NC,L]
+	RewriteRule ^tprofile/?$ controller/public/tprofile.php [NC,L]
+	RewriteRule ^settings/?$ controller/public/settings.php [NC,L]
+	RewriteRule ^student/?$ controller/public/student.php [NC,L]
+	RewriteRule ^teacher/?$ controller/public/teacher.php [NC,L]
+	RewriteRule ^faculty/?$ controller/public/faculty.php [NC,L]
+	RewriteRule ^department/?$ controller/public/department.php [NC,L]
+	RewriteRule ^course/?$ controller/public/course.php [NC,L]
+	RewriteRule ^subject/?$ controller/public/subject.php [NC,L]
+	RewriteRule ^sp/?$ controller/public/sp.php [NC,L]
+	RewriteRule ^tp/?$ controller/public/tp.php [NC,L]
+	
+</IfModule>
