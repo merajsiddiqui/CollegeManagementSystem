@@ -1,8 +1,8 @@
 <?php
 
-$dir_root = 'C:/wamp/www/JmiAdmin/';
-$dir_site = 'http://localhost/JmiAdmin/';
-$baseUrl = 'http://localhost/JmiAdmin/';
+$dir_root = 'C:/wamp/www/CollegeManagementSystem/';
+$dir_site = 'http://localhost/CollegeManagementSystem/';
+$baseUrl = 'http://localhost/CollegeManagementSystem/';
 
 $dir_model = $dir_root.'model/';
 $dir_config = $dir_model.'config/';
